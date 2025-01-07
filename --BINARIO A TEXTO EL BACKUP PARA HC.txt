@@ -1,4 +1,4 @@
---BINARIO A TEXTO EL BACKUP PARA HCER REPORTES--
+--BINARIO A TEXTO EL BACKUP PARA HACER REPORTES--
 -- Transformar de binario a texto el backup --
 C:\Program Files\PostgreSQL\17\bin>pg_dump -U postgres -h localhost -p 5433 -F p -v -f <nombre_de_la_ruta_con_el_backupbinario> <nombre de la base de datos>
  
