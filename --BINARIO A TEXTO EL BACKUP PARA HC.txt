@@ -1,0 +1,8 @@
+--BINARIO A TEXTO EL BACKUP PARA HCER REPORTES--
+-- Transformar de binario a texto el backup --
+C:\Program Files\PostgreSQL\17\bin>pg_dump -U postgres -h localhost -p 5433 -F p -v -f <nombre_de_la_ruta_con_el_backupbinario> <nombre de la base de datos>
+ 
+-- Subirl el backup desde terminal  pero teniendo ya creada la base de datos sólo si es texto --
+C:\Program Files\PostgreSQL\17\bin>psql -U postgres<nombre_de_usuario,regularmente es postgres> -h localhost -p 5433 -d <nombre_de_la_base> -f <nombre de la ruta>
+
+
